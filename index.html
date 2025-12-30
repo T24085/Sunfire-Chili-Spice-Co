@@ -202,18 +202,18 @@
       </p>
 
       <div class="contact-grid">
-        <form class="contact-form" onsubmit="handleSubmit(event)">
+        <form class="contact-form" action="https://formspree.io/f/xregwdne" method="POST" onsubmit="handleSubmit(event)">
           <div class="field">
             <label for="name">Name</label>
-            <input id="name" type="text" required />
+            <input id="name" name="name" type="text" required />
           </div>
           <div class="field">
             <label for="email">Email</label>
-            <input id="email" type="email" required />
+            <input id="email" name="email" type="email" required />
           </div>
           <div class="field">
             <label for="message">Message</label>
-            <textarea id="message" rows="4" required></textarea>
+            <textarea id="message" name="message" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
           <p id="form-status" class="form-status" aria-live="polite"></p>
@@ -224,9 +224,6 @@
           <p>Kansas-based small-batch chili &amp; spice maker.</p>
           <p><strong>Email:</strong> christoffersent@gmail.com</p>
           <p><strong>Instagram:</strong> @sunfirechili (change this later)</p>
-          <p class="tiny">
-            *Online form is a demo. Hook it to Formspree, Netlify Forms, or your own backend when you’re ready.
-          </p>
         </div>
       </div>
     </div>
