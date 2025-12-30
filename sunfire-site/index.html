@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunfire Chili & Spice Co.</title>
+
+  <meta name="description" content="Sunfire Chili & Spice Co. — handcrafted chili powders and spice blends made from sun-ripened peppers. Bold heat, real flavor.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="Logo.png" alt="Sunfire Chili & Spice Co. Logo" class="brand-logo-img" />
+        <span class="brand-name">Sunfire Chili &amp; Spice Co.</span>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#blends">Blends</a></li>
+          <li><a href="#heat">Heat Scale</a></li>
+          <li><a href="#process">How It’s Made</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Bold Heat. Real Flavor.</h1>
+        <p>
+          Small-batch chili powders and handcrafted spice blends made from
+          sun-ripened peppers. From mild warmth to full-on fire, Sunfire
+          brings flavor to everything you cook.
+        </p>
+        <a href="#blends" class="btn btn-primary">View Signature Blends</a>
+        <a href="#contact" class="btn btn-ghost">Wholesale &amp; Local Orders</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section-light">
+    <div class="container split">
+      <div>
+        <h2>About Sunfire</h2>
+        <p>
+          Sunfire Chili &amp; Spice Co. started with a dehydrator, a stack of
+          peppers, and a craving for seasonings that actually tasted like
+          real chiles instead of salt and filler.
+        </p>
+        <p>
+          We blend <strong>California chiles</strong>, <strong>chile de árbol</strong>,
+          <strong>habanero</strong> and sweet peppers to build layers of flavor:
+          smoky, fruity, bright, and spicy. Every batch is made in small
+          runs so the spices stay fresh and vibrant.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>What Makes Us Different</h3>
+        <ul>
+          <li>No anti-caking agents or weird fillers</li>
+          <li>Sun-dried &amp; dehydrated whole peppers</li>
+          <li>Blends tuned for real cooking, not just heat</li>
+          <li>Crafted in small batches</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blends -->
+  <section id="blends" class="section">
+    <div class="container">
+      <h2>Signature Blends</h2>
+      <p class="section-intro">
+        Start with these core blends or contact us for a custom grind.
+      </p>
+
+      <div class="packaging-showcase">
+        <img src="Packaging.png" alt="Sunfire Chili & Spice Co. Packaging" class="packaging-image" />
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Sunfire House Chili</h3>
+          <p>
+            A balanced, everyday chili powder built on California chiles with
+            just enough árbol and habanero to wake things up.
+          </p>
+          <ul class="tag-list">
+            <li>Heat: Medium</li>
+            <li>Uses: Tacos, chili, beans, rubs</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Prairie Ember Rub</h3>
+          <p>
+            Smoky, slightly sweet, and made for the grill. Think chicken,
+            pork, and roasted veggies with a slow-building glow.
+          </p>
+          <ul class="tag-list">
+            <li>Heat: Mild–Medium</li>
+            <li>Uses: Grilling, smoking, sheet-pan meals</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Inferno Harvest</h3>
+          <p>
+            When you want real heat and big flavor. Extra árbol and habanero
+            layered over a deep, earthy base.
+          </p>
+          <ul class="tag-list">
+            <li>Heat: Hot</li>
+            <li>Uses: Wings, chili, hot sauce base</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heat Scale -->
+  <section id="heat" class="section section-dark">
+    <div class="container">
+      <h2>Choose Your Heat Level</h2>
+      <div class="heat-scale">
+        <div class="heat-step">
+          <span class="heat-dot heat-mild"></span>
+          <div>
+            <h3>Mild</h3>
+            <p>Warm and flavorful with just a hint of tingle. Good for families and everyday cooking.</p>
+          </div>
+        </div>
+        <div class="heat-step">
+          <span class="heat-dot heat-medium"></span>
+          <div>
+            <h3>Medium</h3>
+            <p>Balanced heat you can taste but still enjoy. Perfect taco-night level.</p>
+          </div>
+        </div>
+        <div class="heat-step">
+          <span class="heat-dot heat-hot"></span>
+          <div>
+            <h3>Hot</h3>
+            <p>For chili-heads who want sweat-on-the-forehead heat and bold pepper flavor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section section-light">
+    <div class="container">
+      <h2>How It's Made</h2>
+      <div class="process-video-container">
+        <video class="process-video" controls loop autoplay muted poster="Packaging.png">
+          <source src="CheifChili.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="split">
+        <div class="process-text-container">
+          <p>
+            Every batch of Sunfire starts with whole peppers that are sorted,
+            cleaned, and gently dried to lock in color and flavor.
+          </p>
+          <p>
+            After dehydrating, we toast and grind in small batches, then let
+            the blend rest so the flavors marry before it's packed in
+            airtight jars.
+          </p>
+        </div>
+        <ol class="process-steps">
+          <li>Source sun-ripened peppers</li>
+          <li>Dehydrate &amp; toast for max flavor</li>
+          <li>Grind and blend in small batches</li>
+          <li>Pack fresh &amp; label by hand</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact &amp; Orders</h2>
+      <p class="section-intro">
+        Interested in local pickup, farmers’ markets, or small wholesale runs?
+        Send a message and we’ll get back to you.
+      </p>
+
+      <div class="contact-grid">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" type="text" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <h3>Where We Are</h3>
+          <p>Kansas-based small-batch chili &amp; spice maker.</p>
+          <p><strong>Email:</strong> christoffersent@gmail.com</p>
+          <p><strong>Instagram:</strong> @sunfirechili (change this later)</p>
+          <p class="tiny">
+            *Online form is a demo. Hook it to Formspree, Netlify Forms, or your own backend when you’re ready.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sunfire Chili &amp; Spice Co. All rights reserved.</p>
+      <p class="tiny">Bold heat. Real flavor.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
