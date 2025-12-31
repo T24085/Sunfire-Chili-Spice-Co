@@ -57,6 +57,21 @@ body {
   color: var(--text-main);
 }
 
+#about {
+  background-image: 
+    url('Logo.png'),
+    linear-gradient(
+      135deg,
+      rgba(250, 245, 239, 0.75),
+      rgba(245, 240, 234, 0.8)
+    );
+  background-size: 200px 200px, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: 0 0, center;
+  background-attachment: fixed, fixed;
+}
+
+
 #contact {
   background-image: 
     linear-gradient(
@@ -160,8 +175,8 @@ p {
 }
 
 .brand-logo-img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   display: block;
 }
@@ -253,11 +268,13 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  min-height: 300px;
+  justify-content: center;
+  min-height: 400px;
 }
 
 .hero-copy {
   max-width: 34rem;
+  text-align: center;
 }
 
 .hero-copy p {
@@ -436,6 +453,14 @@ p {
   background: #000;
   margin: 0 auto;
   display: block;
+}
+
+.about-text-container {
+  background: rgba(255, 250, 243, 0.9);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 2rem;
+  border: 1px dashed #f0c897;
+  box-shadow: var(--shadow-subtle);
 }
 
 .process-text-container {
